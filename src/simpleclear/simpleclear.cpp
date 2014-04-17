@@ -24,11 +24,16 @@
 #include <cmath>
 #include <iostream>
 #include <sb6.h>
+#include "LogFile.h"
+
+LogFile log();
 
 class simpleclear_app : public sb6::application
 {
     void init()
     {
+		using namespace std;
+
         static const char title[] = "OpenGL SuperBible - Simple Clear";
 
         sb6::application::init();

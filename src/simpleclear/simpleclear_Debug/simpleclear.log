@@ -1,0 +1,35 @@
+﻿Build started 4/17/2014 4:37:46 PM.
+     1>Project "C:\cygwin\home\gfodor\glbox\src\simpleclear\simpleclear.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"simpleclear_Debug\\" /Fd"simpleclear_Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\simpleclear\LogFile.cpp ..\..\src\simpleclear\simpleclear.cpp
+         simpleclear.cpp
+     1>c:\cygwin\home\gfodor\glbox\include\sb6.h(179): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         LogFile.cpp
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\cygwin\home\gfodor\glbox\bin\simpleclear_dbg.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\cygwin\home\gfodor\glbox\bin\simpleclear_dbg.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\cygwin\home\gfodor\glbox\bin\simpleclear_dbg.lib" /MACHINE:X86 simpleclear_Debug\LogFile.obj
+         simpleclear_Debug\simpleclear.obj
+     1>GLFW_d32.lib(enable.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'GLFW_d32.lib(enable.obj)' or at 'C:\cygwin\home\gfodor\glbox\bin\vc100.pdb'; linking object as if no debug info
+     1>GLFW_d32.lib(fullscreen.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'GLFW_d32.lib(fullscreen.obj)' or at 'C:\cygwin\home\gfodor\glbox\bin\vc100.pdb'; linking object as if no debug info
+     1>GLFW_d32.lib(glext.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'GLFW_d32.lib(glext.obj)' or at 'C:\cygwin\home\gfodor\glbox\bin\vc100.pdb'; linking object as if no debug info
+     1>GLFW_d32.lib(init.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'GLFW_d32.lib(init.obj)' or at 'C:\cygwin\home\gfodor\glbox\bin\vc100.pdb'; linking object as if no debug info
+     1>GLFW_d32.lib(input.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'GLFW_d32.lib(input.obj)' or at 'C:\cygwin\home\gfodor\glbox\bin\vc100.pdb'; linking object as if no debug info
+     1>GLFW_d32.lib(time.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'GLFW_d32.lib(time.obj)' or at 'C:\cygwin\home\gfodor\glbox\bin\vc100.pdb'; linking object as if no debug info
+     1>GLFW_d32.lib(win32_enable.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'GLFW_d32.lib(win32_enable.obj)' or at 'C:\cygwin\home\gfodor\glbox\bin\vc100.pdb'; linking object as if no debug info
+     1>GLFW_d32.lib(win32_fullscreen.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'GLFW_d32.lib(win32_fullscreen.obj)' or at 'C:\cygwin\home\gfodor\glbox\bin\vc100.pdb'; linking object as if no debug info
+     1>GLFW_d32.lib(win32_glext.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'GLFW_d32.lib(win32_glext.obj)' or at 'C:\cygwin\home\gfodor\glbox\bin\vc100.pdb'; linking object as if no debug info
+     1>GLFW_d32.lib(win32_init.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'GLFW_d32.lib(win32_init.obj)' or at 'C:\cygwin\home\gfodor\glbox\bin\vc100.pdb'; linking object as if no debug info
+     1>GLFW_d32.lib(win32_time.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'GLFW_d32.lib(win32_time.obj)' or at 'C:\cygwin\home\gfodor\glbox\bin\vc100.pdb'; linking object as if no debug info
+     1>GLFW_d32.lib(win32_window.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'GLFW_d32.lib(win32_window.obj)' or at 'C:\cygwin\home\gfodor\glbox\bin\vc100.pdb'; linking object as if no debug info
+     1>GLFW_d32.lib(window.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'GLFW_d32.lib(window.obj)' or at 'C:\cygwin\home\gfodor\glbox\bin\vc100.pdb'; linking object as if no debug info
+         simpleclear.vcxproj -> C:\cygwin\home\gfodor\glbox\bin\simpleclear_dbg.exe
+       PostBuildEvent:
+         xcopy /y /d C:\cygwin\home\gfodor\glbox\src\simpleclear\*.glsl C:\cygwin\home\gfodor\glbox\bin\
+         :VCEnd
+         0 File(s) copied
+     1>Done Building Project "C:\cygwin\home\gfodor\glbox\src\simpleclear\simpleclear.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.48
