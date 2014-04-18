@@ -11,5 +11,6 @@ private:
 public:
 	LogFile();
 	~LogFile();
+	void log(const char *);
 };
 

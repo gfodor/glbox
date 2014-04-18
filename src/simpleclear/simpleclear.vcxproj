@@ -158,6 +158,7 @@
   <ItemGroup>
     <ClCompile Include="..\..\src\simpleclear\LogFile.cpp" />
     <ClCompile Include="..\..\src\simpleclear\simpleclear.cpp" />
+    <ClCompile Include="App.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\src\simpleclear\fragment.glsl" />
@@ -165,6 +166,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\simpleclear\LogFile.h" />
+    <ClInclude Include="App.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

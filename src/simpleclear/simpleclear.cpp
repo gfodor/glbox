@@ -25,28 +25,6 @@
 #include <iostream>
 #include <sb6.h>
 #include "LogFile.h"
+#include "App.h"
 
-LogFile log();
-
-class simpleclear_app : public sb6::application
-{
-    void init()
-    {
-		using namespace std;
-
-        static const char title[] = "OpenGL SuperBible - Simple Clear";
-
-        sb6::application::init();
-
-        memcpy(info.title, title, sizeof(title));
-    }
-
-    virtual void render(double currentTime)
-    {
-		float r = (float)sin(currentTime) * 0.5f + 0.5f;
-        const GLfloat red[] = { r, 1.0f, 0.0f, 1.0f };
-        glClearBufferfv(GL_COLOR, 0, red);
-    }
-};
-
-DECLARE_MAIN(simpleclear_app)
+DECLARE_MAIN(App)

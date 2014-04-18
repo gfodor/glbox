@@ -13,3 +13,9 @@ LogFile::~LogFile()
 	file << "Closing" << std::endl;
 	file.close();
 }
+
+void LogFile::log(const char *s)
+{
+	file << s << std::endl;
+	file.flush();
+}

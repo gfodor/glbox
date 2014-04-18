@@ -3,6 +3,7 @@
   <ItemGroup>
     <ClCompile Include="..\..\src\simpleclear\simpleclear.cpp" />
     <ClCompile Include="..\..\src\simpleclear\LogFile.cpp" />
+    <ClCompile Include="App.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\src\simpleclear\vertex.glsl" />
@@ -10,5 +11,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\simpleclear\LogFile.h" />
+    <ClInclude Include="App.h" />
   </ItemGroup>
 </Project>
