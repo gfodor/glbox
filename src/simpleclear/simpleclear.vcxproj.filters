@@ -8,6 +8,9 @@
   <ItemGroup>
     <None Include="..\..\src\simpleclear\vertex.glsl" />
     <None Include="..\..\src\simpleclear\fragment.glsl" />
+    <None Include="tcontrol.glsl" />
+    <None Include="teval.glsl" />
+    <None Include="geometry.glsl" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\simpleclear\LogFile.h" />

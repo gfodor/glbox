@@ -22,6 +22,6 @@ public:
 	virtual void startup() override;
 	virtual void shutdown() override;
 	virtual void render(double) override;
-	GLuint compileShaders(const char *vertexShader, const char *fragmentShader);
+	GLuint compileShaders(const char *vertexShaderSource, const char *tControlShaderSource, const char *tEvalShaderSource, const char *geometryShaderSource, const char *fragmentShaderSource);
 };
 

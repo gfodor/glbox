@@ -163,6 +163,9 @@
   <ItemGroup>
     <None Include="..\..\src\simpleclear\fragment.glsl" />
     <None Include="..\..\src\simpleclear\vertex.glsl" />
+    <None Include="geometry.glsl" />
+    <None Include="tcontrol.glsl" />
+    <None Include="teval.glsl" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\simpleclear\LogFile.h" />
